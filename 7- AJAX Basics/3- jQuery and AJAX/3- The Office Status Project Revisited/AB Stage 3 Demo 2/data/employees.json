@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Peter",
+        "inoffice": false
+    },
+    {
+        "name": "Mavula",
+        "inoffice": true
+    },
+    {
+        "name": "Edson",
+        "inoffice": true
+    },
+    {
+        "name": "Mhando",
+        "inoffice": true
+    },
+    {
+        "name": "Ibra",
+        "inoffice": false
+    },
+    {
+        "name": "Eminem",
+        "inoffice": true
+    },
+    {
+        "name": "Rose",
+        "inoffice": false
+    },
+    {
+        "name": "Kide",
+        "inoffice": true
+    },
+    {
+        "name": "Lydia",
+        "inoffice": true
+    },
+    {
+        "name": "Clara",
+        "inoffice": false
+    },
+    {
+        "name": "Dulla",
+        "inoffice": true
+    },
+    {
+        "name": "Chriss",
+        "inoffice": false
+    }
+]

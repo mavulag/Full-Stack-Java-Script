@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX with JavaScript</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <script>
+        // 1. create an XMLHTTP Request object.
+        const xhr = new XMLHttpRequest();
+
+        // 2. create a callback function.
+        xhr.onreadystatechange = () => {
+            // checking if a ready state is equal to 4
+            // means we got the response back
+            if (xhr.readyState === 4) {
+                // responseText is an information that web server sends back
+                document.getElementById('ajax').innerHTML = xhr.responseText;
+            }
+        };
+
+        // 3. open request.
+        // use Http request methods (GET, POST, DELETE) to send requests
+        // and the second argument is the url to where the requests are going, can point to a file
+        // "open method" make browser ready to make the request but doesnot send that request
+        xhr.open('GET', 'sidebar.html');
+
+        // 4. send the request
+        // create a function to trigger send method
+        sendAJAX = () => {
+            xhr.send();
+            document.getElementById('load').style.display = 'none';
+        }
+    </script>
+</head>
+<body>
+
+    <div class="grid-container centered">
+        <div class="grid-100">
+            <div class="contained">
+                <div class="grid-100">
+                    <div class="heading">
+                        <h1>Bring on AJAX</h1>
+                        <button id="load" onclick="sendAJAX()" class="btn btn-secondary">Bring it!</button>
+                        <ul id="ajax">
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
