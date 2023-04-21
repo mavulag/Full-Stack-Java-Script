@@ -1,4 +1,4 @@
-# Full-Stack JavaScript Repository
+# Full-Stack JavaScript
 This repository contains sample code and resources for building full-stack web applications using JavaScript. With the rise of Node.js and front-end frameworks like React, Vue.js, and Angular, JavaScript has become a popular choice for building web applications that run on both the server and the client.
 
 # What's included
@@ -10,7 +10,7 @@ The repository includes code samples and resources for building full-stack web a
 
 * Client-side programming with React, Vue.js, or Angular
 
-*Authentication and authorization using JWT or OAuth2
+* Authentication and authorization using JWT or OAuth2
 
 * Deployment and scaling using cloud services like AWS or Azure
 
